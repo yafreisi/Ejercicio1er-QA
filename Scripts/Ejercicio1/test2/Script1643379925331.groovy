@@ -36,7 +36,7 @@ WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/input_Enter yo
 //verificar que el elemento es cickeable
 WebUI.verifyElementClickable(findTestObject('Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Sign-In/input_Forgot your password_password'), 'O6V2qLryFKHrCPj3fjieQg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Sign-In/input_Forgot your password_password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
 
