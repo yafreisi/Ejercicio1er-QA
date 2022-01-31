@@ -26,16 +26,14 @@ WebUI.maximizeWindow()
 //verificarque el elemento esta presente
 WebUI.verifyElementPresent(findTestObject('Page_Amazon Sign-In/input_Email or mobile phone number_email'), 0)
 
-WebUI.setText(findTestObject('Page_Amazon Sign-In/input_Email or mobile phone number_email'), findTestData('Data1').getValue(
-        1, 1))
+WebUI.setText(findTestObject('Page_Amazon Sign-In/input_Email or mobile phone number_email'), GlobalVariable.Usuario)
 
 //verificar que el elemento es clickeable
 WebUI.verifyElementClickable(findTestObject('Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402'))
 
 WebUI.click(findTestObject('Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Sign-In/input_Forgot your password_password'), findTestData(
-        'Data1').getValue(3, 1))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Sign-In/input_Forgot your password_password'), GlobalVariable.Passinc)
 
 //verificar i el elementoes clickeable
 WebUI.verifyElementClickable(findTestObject('Page_Amazon Sign-In/input_Enter your password_signInSubmit'))
