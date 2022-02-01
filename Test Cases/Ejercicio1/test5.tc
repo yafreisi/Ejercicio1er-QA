@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Caso de prueba donde el campode la contraseña esta vacio.</description>
    <name>test5</name>
-   <tag></tag>
+   <tag>campo de contraseña vacia.</tag>
    <comment></comment>
    <testCaseGuid>e83feb02-fe9e-462e-80b9-da65f83c7903</testCaseGuid>
 </TestCaseEntity>

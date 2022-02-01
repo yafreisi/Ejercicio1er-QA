@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Caso de prueba de usuario, donde el usuario esta correcto y la contraseña incorrecta</description>
    <name>test1</name>
-   <tag></tag>
+   <tag>usuario correcto y contraseña incorrecta</tag>
    <comment></comment>
    <testCaseGuid>c16ed7fc-a372-4e3e-862c-080174c238c3</testCaseGuid>
 </TestCaseEntity>

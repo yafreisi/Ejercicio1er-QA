@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+testfull,Chrome 97.0.4692.99,,,2022-02-01 09:24:58,2022-02-01 09:26:05,1m - 6.713s,PASSED
+,,,,,,,
+Test Cases/Ejercicio1/test1,Chrome 97.0.4692.99,,,2022-02-01 09:24:59,2022-02-01 09:25:17,18.455s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-01 09:24:59,2022-02-01 09:25:02,2.482s,PASSED
+"navigateToUrl(""https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fyour-account%2F%3F_encoding%3DUTF8%26ref_%3Dnav_em_hd_re_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&&ref_%3Dnav_em_hd_clc_signin"")",Chrome 97.0.4692.99,,,2022-02-01 09:25:02,2022-02-01 09:25:03,1.656s,PASSED
+maximizeWindow(),Chrome 97.0.4692.99,,,2022-02-01 09:25:03,2022-02-01 09:25:04,0.179s,PASSED
+"verifyElementPresent(findTestObject(""Page_Amazon Sign-In/input_Email or mobile phone number_email""), 0)",Chrome 97.0.4692.99,,,2022-02-01 09:25:04,2022-02-01 09:25:04,0.838s,PASSED
+"setText(findTestObject(""Page_Amazon Sign-In/input_Email or mobile phone number_email""), Usuario)",Chrome 97.0.4692.99,,,2022-02-01 09:25:04,2022-02-01 09:25:10,5.659s,PASSED
+"verifyElementClickable(findTestObject(""Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:10,2022-02-01 09:25:11,0.410s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:11,2022-02-01 09:25:12,1.635s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Forgot your password_password""), Passinc)",Chrome 97.0.4692.99,,,2022-02-01 09:25:12,2022-02-01 09:25:13,0.825s,PASSED
+"verifyElementClickable(findTestObject(""Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:13,2022-02-01 09:25:14,0.698s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:14,2022-02-01 09:25:14,0.456s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-02-01 09:25:14,2022-02-01 09:25:16,2.058s,PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-01 09:25:16,2022-02-01 09:25:17,1.043s,PASSED
+,,,,,,,
+Test Cases/Ejercicio1/test2,Chrome 97.0.4692.99,,,2022-02-01 09:25:17,2022-02-01 09:25:31,13.409s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-01 09:25:18,2022-02-01 09:25:19,1.650s,PASSED
+"navigateToUrl(""https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fyour-account%2F%3F_encoding%3DUTF8%26ref_%3Dnav_em_hd_re_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&&ref_%3Dnav_em_hd_clc_signin"")",Chrome 97.0.4692.99,,,2022-02-01 09:25:19,2022-02-01 09:25:21,1.662s,PASSED
+maximizeWindow(),Chrome 97.0.4692.99,,,2022-02-01 09:25:21,2022-02-01 09:25:21,0.145s,PASSED
+"verifyElementPresent(findTestObject(""Page_Amazon Sign-In/input_Email or mobile phone number_email""), 0)",Chrome 97.0.4692.99,,,2022-02-01 09:25:21,2022-02-01 09:25:22,0.822s,PASSED
+"setText(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Email or mobile phone number_email""), Usuario)",Chrome 97.0.4692.99,,,2022-02-01 09:25:22,2022-02-01 09:25:23,1.110s,PASSED
+"verifyElementClickable(findTestObject(""Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:23,2022-02-01 09:25:23,0.370s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:23,2022-02-01 09:25:25,1.432s,PASSED
+"verifyElementClickable(findTestObject(""Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:25,2022-02-01 09:25:26,0.926s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Forgot your password_password""), Password)",Chrome 97.0.4692.99,,,2022-02-01 09:25:26,2022-02-01 09:25:26,0.743s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:26,2022-02-01 09:25:27,0.414s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-02-01 09:25:27,2022-02-01 09:25:30,3.007s,PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-01 09:25:30,2022-02-01 09:25:31,0.778s,PASSED
+,,,,,,,
+Test Cases/Ejercicio1/test3,Chrome 97.0.4692.99,,,2022-02-01 09:25:31,2022-02-01 09:25:44,13.233s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-01 09:25:31,2022-02-01 09:25:33,1.912s,PASSED
+"navigateToUrl(""https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fyour-account%2F%3F_encoding%3DUTF8%26ref_%3Dnav_em_hd_re_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&&ref_%3Dnav_em_hd_clc_signin"")",Chrome 97.0.4692.99,,,2022-02-01 09:25:33,2022-02-01 09:25:36,2.904s,PASSED
+maximizeWindow(),Chrome 97.0.4692.99,,,2022-02-01 09:25:36,2022-02-01 09:25:36,0.150s,PASSED
+"verifyElementPresent(findTestObject(""Page_Amazon Sign-In/input_Email or mobile phone number_email""), 0)",Chrome 97.0.4692.99,,,2022-02-01 09:25:36,2022-02-01 09:25:37,0.841s,PASSED
+"setText(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Email or mobile phone number_email""), Correoinc)",Chrome 97.0.4692.99,,,2022-02-01 09:25:37,2022-02-01 09:25:38,1.153s,PASSED
+"verifyElementClickable(findTestObject(""Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:38,2022-02-01 09:25:38,0.333s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:38,2022-02-01 09:25:39,0.818s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/div_There was a problem                    _7720a7""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:39,2022-02-01 09:25:40,1.016s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-02-01 09:25:40,2022-02-01 09:25:43,3.007s,PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-01 09:25:43,2022-02-01 09:25:44,0.697s,PASSED
+,,,,,,,
+Test Cases/Ejercicio1/test4,Chrome 97.0.4692.99,,,2022-02-01 09:25:44,2022-02-01 09:25:54,10.016s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-01 09:25:44,2022-02-01 09:25:46,1.238s,PASSED
+"navigateToUrl(""https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fyour-account%2F%3F_encoding%3DUTF8%26ref_%3Dnav_em_hd_re_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&&ref_%3Dnav_em_hd_clc_signin"")",Chrome 97.0.4692.99,,,2022-02-01 09:25:46,2022-02-01 09:25:47,1.974s,PASSED
+maximizeWindow(),Chrome 97.0.4692.99,,,2022-02-01 09:25:47,2022-02-01 09:25:48,0.163s,PASSED
+"verifyElementPresent(findTestObject(""Page_Amazon Sign-In/input_Email or mobile phone number_email""), 0)",Chrome 97.0.4692.99,,,2022-02-01 09:25:48,2022-02-01 09:25:48,0.749s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:48,2022-02-01 09:25:49,0.901s,PASSED
+"verifyElementClickable(findTestObject(""Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:49,2022-02-01 09:25:50,0.485s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/div_Enter your email or mobile phone number""))",Chrome 97.0.4692.99,,,2022-02-01 09:25:50,2022-02-01 09:25:50,0.455s,PASSED
+delay(3),Chrome 97.0.4692.99,,,2022-02-01 09:25:50,2022-02-01 09:25:53,3.015s,PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-01 09:25:53,2022-02-01 09:25:54,0.682s,PASSED
+,,,,,,,
+Test Cases/Ejercicio1/test5,Chrome 97.0.4692.99,,,2022-02-01 09:25:54,2022-02-01 09:26:05,11.143s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-01 09:25:54,2022-02-01 09:25:56,1.228s,PASSED
+"navigateToUrl(""https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fyour-account%2F%3F_encoding%3DUTF8%26ref_%3Dnav_em_hd_re_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&&ref_%3Dnav_em_hd_clc_signin"")",Chrome 97.0.4692.99,,,2022-02-01 09:25:56,2022-02-01 09:25:58,2.042s,PASSED
+maximizeWindow(),Chrome 97.0.4692.99,,,2022-02-01 09:25:58,2022-02-01 09:25:58,0.178s,PASSED
+"verifyElementPresent(findTestObject(""Page_Amazon Sign-In/input_Email or mobile phone number_email""), 0)",Chrome 97.0.4692.99,,,2022-02-01 09:25:58,2022-02-01 09:25:59,0.698s,PASSED
+"setText(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Email or mobile phone number_email""), Usuario)",Chrome 97.0.4692.99,,,2022-02-01 09:25:59,2022-02-01 09:26:00,1.204s,PASSED
+"verifyElementClickable(findTestObject(""Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 97.0.4692.99,,,2022-02-01 09:26:00,2022-02-01 09:26:00,0.361s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Enter your email or mobile phone numb_fc7402""))",Chrome 97.0.4692.99,,,2022-02-01 09:26:00,2022-02-01 09:26:01,1.307s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon Sign-In/input_Enter your password_signInSubmit""))",Chrome 97.0.4692.99,,,2022-02-01 09:26:01,2022-02-01 09:26:02,1.014s,PASSED
+delay(2),Chrome 97.0.4692.99,,,2022-02-01 09:26:02,2022-02-01 09:26:04,2.015s,PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-01 09:26:04,2022-02-01 09:26:05,0.713s,PASSED
