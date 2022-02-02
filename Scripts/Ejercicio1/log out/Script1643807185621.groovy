@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.verifyElementClickable(findTestObject('logout/log outtt/Page_Tu cuenta/i_Cerrar Sesin_hm-icon nav-sprite'))
+
+WebUI.click(findTestObject('logout/log outtt/Page_Tu cuenta/i_Cerrar Sesin_hm-icon nav-sprite'))
+
+WebUI.verifyElementClickable(findTestObject('logout/log outtt/Page_Tu cuenta/a_Salir'))
+
+WebUI.click(findTestObject('logout/log outtt/Page_Tu cuenta/a_Salir'))
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
+

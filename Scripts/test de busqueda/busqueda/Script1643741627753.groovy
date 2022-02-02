@@ -19,21 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.com/-/es/ref=nav_logo')
-
 WebUI.maximizeWindow()
 
-for (int i = 1; i < findTestData("Data Files/buscadordata").rowNumbers; i++) {
-WebUI.verifyElementVisible(findTestObject('buscarr/Page_Amazon.com. Gasta menos. Sonre ms/input_Todos_field-keywords'))
+WebUI.callTestCase(findTestCase('Ejercicio1/login'), [:], FailureHandling.STOP_ON_FAILURE)
+// FOR LOOP PARA UN CICO DE  BUSQUEDA
+for (int i = 1; i < findTestData('Data Files/buscadordata').rowNumbers; i++) {
+    WebUI.verifyElementVisible(findTestObject('buscarr/Page_Amazon.com. Gasta menos. Sonre ms/input_Todos_field-keywords'))
 
-WebUI.setText(findTestObject('buscarr/Page_Amazon.com. Gasta menos. Sonre ms/input_Todos_field-keywords'), findTestData("Data Files/buscadordata").getValue(1, i))
+    WebUI.setText(findTestObject('buscarr/Page_Amazon.com. Gasta menos. Sonre ms/input_Todos_field-keywords'), findTestData(
+            'Data Files/buscadordata').getValue(1, i))
+
+    WebUI.verifyElementClickable(findTestObject('buscarr/Page_Amazon.com. Gasta menos. Sonre ms/input_Todos_nav-search-submit-button'))
+
+    WebUI.click(findTestObject('buscarr/Page_Amazon.com. Gasta menos. Sonre ms/input_Todos_nav-search-submit-button'))
+
+    WebUI.delay(2)
+	//REFRESCAR LA PAGINA
+	WebUI.refresh()
+} 
 
 
-WebUI.verifyElementClickable(findTestObject('buscarr/Page_Amazon.com. Gasta menos. Sonre ms/input_Todos_nav-search-submit-button'))
 
-WebUI.click(findTestObject('buscarr/Page_Amazon.com. Gasta menos. Sonre ms/input_Todos_nav-search-submit-button'))
-
-WebUI.delay(2)
-}
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Ejercicio1/log out'), [:], FailureHandling.STOP_ON_FAILURE)
 
