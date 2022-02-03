@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>QA</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('comprasss').getValue(1, 1)</initValue>
+      <name>correo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('comprasss').getValue(2, 1)</initValue>
+      <name>contrasena</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('comprasss').getValue(3, 1)</initValue>
+      <name>busca</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('comprasss').getValue(4, 1)</initValue>
+      <name>noTarjeta</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('comprasss').getValue(5, 1)</initValue>
+      <name>NombreTarjeta</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

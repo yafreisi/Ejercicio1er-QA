@@ -1,3 +1,274 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/METODO PAGO/Page_Amazon.com  mouse/img_RESULTADOS_s-image",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span[3]/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div[2]/div/span/a/div/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/METODO PAGO/Page_Amazon.com  mouse/img_RESULTADOS_s-image_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/METODO PAGO/Page_Carrito de compras de amazon.com/input_US9.29_proceedToRetailCheckout",
+      "brokenLocator": "//input[@name\u003d\u0027proceedToRetailCheckout\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form/span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/METODO PAGO/Page_Carrito de compras de amazon.com/input_US9.29_proceedToRetailCheckout_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/METODO PAGO/Page_Escribe la direccin de envo para este pedido/span_Estados Unidos",
+      "brokenLocator": "//span[@id\u003d\u0027address-ui-widgets-countryCode\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/METODO PAGO/Page_Escribe la direccin de envo para este pedido/span_Estados Unidos_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Comprarr/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_6a2fb5",
+      "brokenLocator": "//iframe[@id\u003d\u0027pp-JAahYJ-89\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027apx-content\u0027]/div/div[2]/div[2]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Comprarr/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_6a2fb5_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Comprarr/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber",
+      "brokenLocator": "//input[@id\u003d\u0027pp-vGDis1-15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Comprarr/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Seleccionar una direccin de envo/span_Estados Unidos",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[@id\u003d\u0027address-ui-widgets-countryCode\u0027]/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Seleccionar una direccin de envo/span_Estados Unidos_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Seleccionar una direccin de envo/a_Repblica Dominicana",
+      "brokenLocator": "//ul[@id\u003d\u00272_dropdown_combobox\u0027]/li[191]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027República Dominicana\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Seleccionar una direccin de envo/a_Repblica Dominicana_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_ee3d01",
+      "brokenLocator": "//iframe[@id\u003d\u0027pp-S6QFEu-67\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027apx-content\u0027]/div/div[2]/div[2]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_ee3d01_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber_1",
+      "brokenLocator": "//input[@id\u003d\u0027pp-V715Lj-15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName_1",
+      "brokenLocator": "//input[@id\u003d\u0027pp-V715Lj-17\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01",
+      "brokenLocator": "//span[@id\u003d\u0027pp-ZYdLPK-21\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Fecha de vencimiento\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_11",
+      "brokenLocator": "//a[@id\u003d\u0027pp-V715Lj-18_10\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027a-popover-2\u0027]/div/div/ul/li[11]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_11_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_2022",
+      "brokenLocator": "//span[@id\u003d\u0027pp-ZYdLPK-22\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Fecha de vencimiento\u0027])[1]/following::span[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_2022_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_2022_1",
+      "brokenLocator": "//a[@id\u003d\u0027pp-V715Lj-20_0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u00272022\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_2022_1_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/div_Mis tarjetas de crdito y dbitoNombre en_98afe3",
+      "brokenLocator": "//form[@id\u003d\u0027pp-F4o4cv-66\u0027]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Selecciona un método de pago\u0027])[1]/following::div[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/div_Mis tarjetas de crdito y dbitoNombre en_98afe3_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Amazon.com  mouse/span_Amazon Basics Ratn silencioso con cabl_51b42d",
+      "brokenLocator": "//div[@id\u003d\u0027search\u0027]/div/div/div/span[3]/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/h2/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Destacado de nuestras marcas\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Amazon.com  mouse/span_Amazon Basics Ratn silencioso con cabl_51b42d_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Carrito de compras de amazon.com/input_US74.32_proceedToRetailCheckout",
+      "brokenLocator": "//input[@name\u003d\u0027proceedToRetailCheckout\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/form/span/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Carrito de compras de amazon.com/input_US74.32_proceedToRetailCheckout_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AVERRR/Page_Seleccionar una direccin de envo/span_Estados Unidos",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AVERRR/Page_Seleccionar una direccin de envo/span_Estados Unidos_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/compras/Page_Seleccionar una direccin de envo/a_Entregar a esta direccin Tamarindo",
+      "brokenLocator": "//div[@id\u003d\u0027address-book-entry-0\u0027]/div[2]/span/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/compras/Page_Seleccionar una direccin de envo/a_Entregar a esta direccin Tamarindo_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_fc2064",
+      "brokenLocator": "//iframe[@id\u003d\u0027pp-rHLAWe-67\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027apx-content\u0027]/div/div[2]/div[2]/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/iframe_Puedes revisar el pedido antes de fi_fc2064_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber",
+      "brokenLocator": "//input[@id\u003d\u0027pp-1qxEbl-15\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nmero de tarjeta_addCreditCardNumber_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName",
+      "brokenLocator": "//input[@id\u003d\u0027pp-1qxEbl-17\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/input_Nombre en la tarjeta_ppw-accountHolderName_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01",
+      "brokenLocator": "//span[@id\u003d\u0027pp-1qxEbl-21\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Fecha de vencimiento\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_01_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_04",
+      "brokenLocator": "//a[@id\u003d\u0027pp-1qxEbl-18_3\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027a-popover-2\u0027]/div/div/ul/li[4]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_04_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_2022",
+      "brokenLocator": "//span[@id\u003d\u0027pp-1qxEbl-22\u0027]/span/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Fecha de vencimiento\u0027])[1]/following::span[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/span_2022_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_2024",
+      "brokenLocator": "//a[@id\u003d\u0027pp-1qxEbl-20_2\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027a-popover-3\u0027]/div/div/ul/li[3]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/a_2024_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/div_Se ha producido un problema.El nmero de_222759",
+      "brokenLocator": "//form[@id\u003d\u0027pp-1qxEbl-13\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Agregar una tarjeta de crédito o débito\u0027])[1]/following::div[11]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/compras/Page_Selecciona un mtodo de pago - Compra A_c0f8a6/div_Se ha producido un problema.El nmero de_222759_neighbor.png"
+    }
+  ]
 }

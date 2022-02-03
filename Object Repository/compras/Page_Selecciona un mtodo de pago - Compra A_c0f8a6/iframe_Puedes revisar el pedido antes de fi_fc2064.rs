@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_There was a problem                    _7a87af</name>
+   <name>iframe_Puedes revisar el pedido antes de fi_fc2064</name>
    <tag></tag>
-   <elementGuidId>7a040828-02fe-483d-9d3f-a1bbe88f4350</elementGuidId>
+   <elementGuidId>488b9f99-c11e-47e6-ae66-3e036b19be5b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='auth-error-message-box']/div</value>
+         <key>CSS</key>
+         <value>#pp-rHLAWe-67</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.a-box-inner.a-alert-container</value>
+         <key>XPATH</key>
+         <value>//iframe[@id='pp-rHLAWe-67']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,90 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>iframe</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>pp-rHLAWe-67</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>a-box-inner a-alert-container</value>
+      <value>apx-secure-iframe pmts-portal-component pmts-portal-components-pp-rHLAWe-8</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>name</name>
       <type>Main</type>
-      <value>There was a problem
-      
-        
-          
-        
-        
-      
-      
-        
-          
-            Your password is incorrect
-          
-        
-      
-    </value>
+      <value>ApxSecureIframe-pp-rHLAWe-7</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;auth-error-message-box&quot;)/div[@class=&quot;a-box-inner a-alert-container&quot;]</value>
+      <value>id(&quot;pp-rHLAWe-67&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//iframe[@id='pp-rHLAWe-67']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='auth-error-message-box']/div</value>
+      <value>//div[@id='apx-content']/div/div[2]/div[2]/div/iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div/div</value>
+      <value>//iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'There was a problem
-      
-        
-          
-        
-        
-      
-      
-        
-          
-            Your password is incorrect
-          
-        
-      
-    ' or . = 'There was a problem
-      
-        
-          
-        
-        
-      
-      
-        
-          
-            Your password is incorrect
-          
-        
-      
-    ')]</value>
+      <value>//iframe[@id = 'pp-rHLAWe-67' and @name = 'ApxSecureIframe-pp-rHLAWe-7']</value>
    </webElementXpaths>
 </WebElementEntity>
